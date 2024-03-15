@@ -1,0 +1,225 @@
+.booster-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        margin: 3rem 0 0 0;
+        cursor: pointer;
+    }
+
+    .header-booster {
+        display: grid;
+        place-items: center;
+
+        img {
+            cursor: pointer;
+            height: 30rem;
+        }
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+
+        .cards {
+            display: flex;
+            height: 50vh;
+            width: 100vw;
+            margin: 0 2rem;
+
+            .card {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-right: 5vw;
+
+                &:first-child {
+                    margin-left: 5vw;
+                }
+    
+                img {
+                    height: 22rem;
+                    border-radius: 5px;
+                }
+            }
+
+            .btn-add {
+                margin-top: 1rem;
+                height: 4rem;
+                display: grid;
+                place-items: center;
+
+            }
+        }
+        
+        .btn {
+            display: flex;
+            justify-content: center;
+
+            button {
+                background-color: transparent;
+                border: 2px solid var(--color-primary);
+                color: var(--color-font);
+                width: 20rem;
+                height: 3rem;
+            }
+        }
+    }
+}
+
+button {
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    color: var(--color-black);
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all .1s ease-in-out;
+
+    &:hover {
+        box-shadow: 1px 1px 20px -0px rgba(243,217,135,0.82);
+        -webkit-box-shadow: 1px 1px 20px -0px rgba(243,217,135,0.82);
+        -moz-box-shadow: 1px 1px 20px -0px rgba(243,217,135,0.82);
+    }
+}
+
+.common {
+    box-shadow: 1px 1px 40px -0px rgba(238, 244, 255, 0.3);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(238, 244, 255, 0.3);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(238, 244, 255, 0.3);
+    animation: blink 0.4s;
+}
+
+.rare {
+    box-shadow: 1px 1px 40px -0px rgba(86, 134, 223, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(86, 134, 223, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(86, 134, 223, 0.82);
+    animation: blink 0.4s;
+}
+
+.srare {
+    box-shadow: 1px 1px 40px -0px rgba(29, 94, 215, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(29, 94, 215, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(29, 94, 215, 0.82);
+    animation: blink 0.4s;
+}
+
+.urare {
+    box-shadow: 1px 1px 40px -0px rgba(226, 151, 45, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(226, 151, 45, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(226, 151, 45, 0.82);
+    animation: blink 0.4s;
+}
+
+.ultrare {
+    box-shadow: 1px 1px 40px -0px rgba(198, 57, 172, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(198, 57, 172, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(198, 57, 172, 0.82);
+    animation: blink 0.4s;
+}
+
+.qcsrare {
+    box-shadow: 1px 1px 60px -0px rgba(255, 0, 0, 0.82);
+    -webkit-box-shadow: 1px 1px 60px -0px rgba(255, 0, 0, 0.82);
+    -moz-box-shadow: 1px 1px 60px -0px rgba(255, 0, 0, 0.82);
+    animation: blink 0.4s;
+}
+
+.sctrare {
+    box-shadow: 1px 1px 40px -0px rgba(203, 255, 214, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(203, 255, 214, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(203, 255, 214, 0.82);
+    animation: blink 0.4s;
+}
+
+.grare {
+    box-shadow: 1px 1px 40px -0px rgba(247, 242, 155, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(247, 242, 155, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(247, 242, 155, 0.82);
+    animation: blink 0.4s;
+}
+
+.esrare {
+    box-shadow: 1px 1px 40px -0px rgba(227, 126, 187, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(227, 126, 187, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(227, 126, 187, 0.82);
+    animation: blink 0.4s;
+}
+
+.gsctrare {
+    box-shadow: 1px 1px 40px -0px rgba(230, 233, 45, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(230, 233, 45, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(230, 233, 45, 0.82);
+    animation: blink 0.4s;
+}
+
+.clsrare {
+    box-shadow: 1px 1px 40px -0px rgba(207, 42, 42, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(207, 42, 42, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(207, 42, 42, 0.82);
+    animation: blink 0.4s;
+}
+
+.dtnprare {
+    box-shadow: 1px 1px 40px -0px rgba(196, 47, 255, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(196, 47, 255, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(196, 47, 255, 0.82);
+    animation: blink 0.4s;
+}
+
+.psrare {
+    box-shadow: 1px 1px 40px -0px rgba(45, 39, 118, 0.82);
+    -webkit-box-shadow: 1px 1px 40px -0px rgba(45, 39, 118, 0.82);
+    -moz-box-shadow: 1px 1px 40px -0px rgba(45, 39, 118, 0.82);
+    animation: blink 0.4s;
+}
+
+.mrare {
+    box-shadow: 
+        1px 1px 40px -0px violet,
+        1px 1px 40px -0px indigo,
+        1px 1px 40px -0px blue,
+        1px 1px 40px -0px green,
+        1px 1px 40px -0px yellow,
+        1px 1px 40px -0px orange,
+        1px 1px 40px -0px red;
+        animation: blink 0.4s;
+}
+
+.dtrprare {
+    box-shadow: 1px 1px 60px -0px rgba(26, 247, 255, 0.82);
+    -webkit-box-shadow: 1px 1px 60px -0px rgba(26, 247, 255, 0.82);
+    -moz-box-shadow: 1px 1px 60px -0px rgba(26, 247, 255, 0.82);
+    animation: blink 0.4s;
+}
+
+.dtuprare {
+    box-shadow: 1px 1px 60px -0px rgba(255, 3, 125, 0.82);
+    -webkit-box-shadow: 1px 1px 60px -0px rgba(255, 3, 125, 0.82);
+    -moz-box-shadow: 1px 1px 60px -0px rgba(255, 3, 125, 0.82);
+    animation: blink 0.4s;
+}
+
+.defaut {
+    box-shadow: 1px 1px 60px -0px rgba(0, 0, 0, 0.82);
+    -webkit-box-shadow: 1px 1px 60px -0px rgba(0, 0, 0, 0.82);
+    -moz-box-shadow: 1px 1px 60px -0px rgba(0, 0, 0, 0.82);
+    animation: blink 0.4s;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

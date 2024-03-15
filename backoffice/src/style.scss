@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  .page-sct {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+
+    .navbar-sct {
+      position: absolute;
+      top: 0;
+      height: 15vh;
+      width: 100vw;
+      display: flex;
+
+      .logo-sct {
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .disconnect-btn {
+        position: absolute;
+        height: 15vh;
+        width: 15vh;
+        margin-left: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        #aDisc {
+          #disco {
+            height: 5vh;
+            width: 5vh;
+          }
+        }
+      }
+    }
+
+    .panel-sct {
+      position: absolute;
+      margin-top: 15vh;
+      height: 85vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .log-sct {
+        height: 70vh;
+        width: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .input-sct {
+          width: 90%;
+          height: 75%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+
+          .user-sct {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+          }
+
+          .pwd-sct {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+          }
+        }
+
+        .submit-sct {
+          height: 25%;
+        }
+      }
+
+      .home-sct {
+        height: 100%;
+        width: 100%;
+        display: flex;
+
+        .left-btn {
+          height: 100%;
+          width: 10%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          #l_chev1 {
+            opacity: 0.3;
+            height: 6vh;
+            width: 6vh;
+          }
+
+          #a2l {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #l_chev2 {
+              opacity: 1;
+              height: 6vh;
+              width: 6vh;
+            }
+          }
+
+          #a3l {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #l_chev3 {
+              opacity: 1;
+              height: 6vh;
+              width: 6vh;
+            }
+          }
+        }
+        .content-sct {
+          height: 100%;
+          width: 80%;
+
+          .message-sct {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .title-sct {
+              #Wlc {
+                font-weight: 200;
+                font-size: 6vh;
+              }
+            }
+
+            .text-sct {
+              #Txt {
+                font-size: 2.5vh;
+              }
+            }
+          }
+          .user-sct {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .title-sct {
+              height: 15%;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              #Usr {
+                font-weight: 200;
+                font-size: 6vh;
+              }
+            }
+
+            .gest-sct {
+              height: 85%;
+              width: 100%;
+
+              .template {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+
+              .cardUpdateSct {
+                height: 100%;
+                width: 100%;
+                overflow: scroll;
+                
+                .carteImg {
+                    height: 10vh;
+                    width: 10vh;
+                }
+                
+              }
+
+              .addCardSct {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .cardAddSct {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+              }
+            
+              .userSupSct {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                width: 100%;
+
+                .msg {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+              }
+
+              .userUpdateSct {
+                height: 65%;
+                width: 65%;
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: space-evenly;
+                // align-items: center;
+
+                #userUpdateInputSct {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    height: 30%;
+                }
+              }
+
+              .userUpdateSct {
+                height: 65%;
+                width: 65%;
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: space-evenly;
+                // align-items: center;
+
+                #userUpdateInputSct {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: space-around;
+                  height: 30%;
+                }
+
+                .content-sct {
+                    height: 100%;
+                    width: 80%;
+
+                    .message-sct {
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-evenly;
+
+                        .title-sct {
+                            #Wlc {
+                                font-weight: 200;
+                                font-size: 6vh;
+                            }
+
+                        }
+
+                        .text-sct {
+                            #Txt {
+                                font-size: 2.5vh;
+                            }
+
+                        }
+                    }
+                }
+              }
+           }
+          }
+        }
+        .right-btn {
+          height: 100%;
+          width: 10%;
+          display: flex;
+          justify-content: center;
+          align-items: center ;
+
+          #a1r {
+              height: 100%;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+              #r_chev1 {
+                  opacity: 1;
+                  height: 6vh;
+                  width: 6vh;
+                  // background-color: green;
+              }
+
+          }
+
+          #a2r {
+              height: 100%;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              #r_chev2 {
+                  opacity: 1;
+                  height: 6vh;
+                  width: 6vh;
+              }
+          }
+
+          #r_chev3 {
+              opacity: 1;
+              height: 6vh;
+              width: 6vh;
+          }
+
+          #r_chev4 {
+            opacity: 0.3;
+            height: 6vh;
+            width: 6vh;
+        }
+      }
+    }
+  }
+  }
+}

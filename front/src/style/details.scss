@@ -1,0 +1,200 @@
+.content-details {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    overflow: hidden;
+
+    &>img {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        opacity: .7;
+    }
+
+    .card-img {
+        z-index: 2;
+        margin-top: 2rem;
+        width: 50%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+
+        .container {
+            height: 70vh;
+            width: 30vw;
+            border-radius: 10px;
+
+            img {
+                height: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .card-description {
+        z-index: 2;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .name {
+            height: 4rem;
+            width: auto;
+            margin: 8rem 2rem 0 0;
+            display: flex;
+            align-items: center;
+            
+            h1 {
+                margin: 0;
+                font-size: 2.3rem;
+                text-transform: uppercase;
+            }
+        }
+
+        .stars {
+            width: auto;
+            margin: .5rem 2rem 1.5rem 0;
+
+            img {
+                height: 2rem;
+                width: 2rem;
+                margin-right: .5rem;
+            }
+        }
+
+        .ids {
+            display: flex;
+            width: auto;
+            margin-right: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--color-inner-btn);
+            
+            p {
+                margin: 0;
+                width: 15vw;
+            }
+        }
+
+        .elements {
+            width: auto;
+            margin-right: 2rem;
+            display: flex;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--color-inner-btn);
+
+            p {
+                width: 15vw;
+                margin: 2rem 0 0 0;
+                height: 2rem;
+                display: flex;
+                align-items: center;
+            }
+
+            img {
+                height: 100%;
+                margin-left: 1rem;
+            }
+        }
+
+        .stats {
+            width: auto;
+            margin: 2rem 2rem 0 0;
+            display: flex;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--color-inner-btn);
+
+            p {
+                margin: 0;
+            }
+
+            .attack, .defense {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                height: 3rem;
+            }
+
+            .attack-bar, .defense-bar {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin-left: 1rem;
+                border-radius: 5px;
+                
+                span {
+                    margin-left: 1rem;
+                }
+              }
+            
+              .attack-bar {
+                background-color: rgb(242, 108, 108);
+              }
+            
+              .defense-bar {
+                background-color: rgb(111, 111, 227);
+              }
+        }
+
+        .price {
+            margin: 2rem 2rem 0 0;
+            width: auto;
+            height: 15vh;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--color-inner-btn);
+            
+            &>div {
+                width: 50%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+
+                .img {
+                    background-color: var(--color-font);
+                    width: 3rem;
+                    height: 3rem;
+                    margin-right: 1rem;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        
+        .rarity {
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--color-inner-btn);
+            margin-right: 2rem;
+
+            p {
+                margin: 1rem;
+                width: 30vw;
+            }
+        }
+    }
+    
+}
+.loading-cards {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    p {
+        margin: 0;
+    }
+}

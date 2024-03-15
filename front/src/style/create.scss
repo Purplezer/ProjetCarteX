@@ -1,0 +1,209 @@
+.create-page {
+    height: 100vh;
+    width: 100vw;
+
+    .container {
+        width: auto;
+        margin: 0 2rem;
+        margin-top: 8rem;
+        height: auto;
+
+        h1 {
+            margin: 0 0 2rem 0;
+        }
+
+        .content-create {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+
+            .visualisation {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                .img, .card {
+                    height: 70vh;
+                    width: 30vw;
+                    border-radius: 10px;
+                    
+                  
+                      .card-type {
+                        position: absolute;
+                        display: flex;
+                        width: auto;
+                        height: 70vh;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 10px;
+                        background-color: var(--color-primary);
+                        color: var(--color-font);
+                        font-size: 1.5rem;
+                        z-index: 0;
+                      }
+                      
+                      .card-image {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 36.4vh;
+                        width: 20vw;
+                        top: 34.2vh;
+                        left: 9.2vw;
+                        background-color: var(--color-primary);
+                        color: var(--color-font);
+                        font-size: 1.5rem;
+                        z-index: 1;
+                      }
+
+                      .card-name {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        top: 22.5vh;
+                        left: 8.5vw;
+                        color: black;
+                        font-size: 1.5rem;
+                        z-index: 1;
+                      }
+
+                    .stars-container {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        top: 30vh;
+                        left: 8vw;
+                        color: var(--color-font);
+                        font-size: 1.5rem;
+                        z-index: 1;
+
+                        .star-image {
+                            width: 1.3rem;
+                            height: 1.3rem;
+                
+                        }
+                    }
+                    
+                    .attaque {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
+                        font-size: 1rem;
+                        top: 83.25vh;
+                        left: 22.5vw;
+                        z-index: 1;
+                        font-weight: 500;
+                    }
+
+                    .defense {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
+                        font-size: 1rem;
+                        top: 83.25vh;
+                        left: 27.9vw;
+                        z-index: 1;
+                        font-weight: 500;
+                    }
+
+                    .description {
+                        position: absolute;
+                        display: flex;
+                        color: black;
+                        font-size: 1rem;
+                        top: 72.5vh;
+                        left: 8.8vw;
+                        z-index: 1;
+                        width: 21vw;
+                        max-height: 12vh;
+                    }
+
+
+                }
+            }
+
+            .choices {
+                width: 60%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                input, textarea, select {
+                    height: 100%;
+                    border: none;
+                    outline: none;
+                    border-radius: 2px;
+                    width: 15vw;
+                    background-color:  #ffffff45;
+                    color: var(--color-font);
+                    padding-left: 1rem;
+                }
+
+                select {
+                    background-color: #5d5d5d;
+                    width: 16vw;
+                }
+
+                textarea {
+                    width: 100%;
+                    padding: 1rem 0 1rem 1rem
+                }
+
+                .first-box, .image, .stats, .special, .price, .set, .submit {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 2.5rem;
+                    margin-bottom: 2rem;
+                }
+                
+                .description {
+                    margin-right: 1rem;
+                    width: auto;
+                    height: 10vh;
+                    margin-bottom: 4rem;
+                }
+
+                .price {
+                    input {
+                        width: 11vw;
+                    }
+                }
+
+                .image {
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .submit {
+                    justify-content: center;
+
+                    span {
+                        margin-top: 3rem;
+                        width: 15vw;
+                        height: 3.5rem;
+                        border-radius: 2rem;
+                        border: none;
+                        outline: none;
+                        background-color: var(--color-primary);
+                        cursor: pointer;
+                        color: var(--color-black);
+                        font-size: 1.3rem;
+                        display: grid;
+                        place-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

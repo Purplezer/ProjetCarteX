@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration générale de PHPUnit -->
+<phpunit colors="true" bootstrap="vendor/autoload.php">
+    <!-- Définition des ensembles de tests -->
+    <testsuites>
+        <!-- Ensemble de tests nommé "Unit Tests" -->
+        <testsuite name="Unit Tests">
+            <!-- Répertoire contenant les tests d'intégration -->
+            <directory>tests/Intégration</directory>
+            <!-- Répertoire contenant les tests unitaires -->
+            <directory>tests/Unit</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
